@@ -1,0 +1,156 @@
+body {
+    width: 1020px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    height: 90px;
+    background-color: #2d2f39;
+    border-bottom: 6px solid #323746;
+    clear: both;
+    color: white;
+    line-height: 89px;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+nav > a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10px;
+    position: relative;
+    top: -7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav > span {
+    color: #323746;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+nav > a:hover {
+    color: #f06c64;
+}
+
+h2 {
+    margin: 0;
+}
+.sinlogo {
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+}
+
+.span_logo {
+    color: #f06c64;
+}
+
+.carousel {
+    height: 600px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+}
+
+.left {
+    background: url(./assets/carousel.svg);
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 270px;
+    left: 40px;
+    display: inline-block;
+}
+
+.right {
+    transform: rotate(180deg);
+    top: 270px;
+    left: 930px;
+}
+
+.left:hover, .right:hover {
+    opacity: 0.5;
+}
+
+.phone_left {
+    background: url(./assets/phone_vertical.png);
+    background-repeat: no-repeat;
+    height: 484px;
+    width: 240px;
+    position: relative;
+    top: 30px;
+    left: 130px;
+}
+
+.phone_right {
+    background: url(./assets/phone_horisont.png);
+    background-repeat: no-repeat;
+    height: 240px;
+    width: 484px;
+    position: relative;
+    top: -340px;
+    left: 440px;
+}
+
+.services {
+    color: #666d89;
+    background-color: #f2f2f2;
+    height: 500px;
+    border-bottom: 6px solid white;
+    clear: both;
+}
+
+.image_icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #666d89;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: -46px;
+}
+
+.text_service {
+    display: inline-block;
+    width: 220px;
+}
+
+.services > h2 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+p {
+    font-size: 12px;
+    color: #767e9e;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+}
+.p_services {
+    font-size: 16px;
+    color: #767e9e;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.services_item {
+    height: 150px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
